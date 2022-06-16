@@ -1,6 +1,6 @@
 output "security_grp_id" {
   description = "securitygrp-id"
-  value       = aws_security_group.ec2-sg16062022.id
+  value       = aws_security_group.ec2-sg160620221.id
 }
 output "instance_ids" {
   description = "id"

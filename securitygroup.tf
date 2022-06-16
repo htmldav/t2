@@ -1,5 +1,5 @@
 # creating security group
-resource "aws_security_group" "ec2-sg16062022" {
+resource "aws_security_group" "ec2-sg160620221" {
   description = "security group for ec2"
 #   vpc_id      = var.vpc_id
   ingress = [

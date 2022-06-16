@@ -6,7 +6,7 @@ resource "aws_instance" "terraforminstance" {
   key_name                    = var.key_name
  
   count                       = var.instance_count
-  security_groups             = ["${aws_security_group.ec2-sg16062022.id}"]
+  security_groups             = ["${aws_security_group.ec2-sg160620221.id}"]
 #   subnet_id                   = var.subnet_id
   associate_public_ip_address = true
 #   ebs_block_device {

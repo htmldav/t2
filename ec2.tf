@@ -37,5 +37,5 @@ resource "aws_instance" "terraforminstance" {
 
 resource "aws_key_pair" "deployer" {
   key_name   = var.key_name
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC74czLJL3UR1UTJGGLMwKRNrP3W2wfW9uwsTw3q06DflBCI0/jIJfOgHkO3/5UVSEvYnwKkZHG5f9rR/npFSOnqsPdamPhLDCsT9A2D7tJQB/kllSbrTzQMbiZ7NgtB2vEkKw7CJdlkxXbyqLYuFWgnqhRm1iXBtWVLUX9z/Mt0EOgfXqzbBwoJ365dJVpG5LH5E14OTtFOtzgSRkGx1QECCEL2jbT1P0BacdBoO4czvZEK3Jnojs5ZW3V2JgF6xuYNVsgC6L5g5CpFoh9flPar4c8tvOFMpznIUKSBHi6HFkogkNCrC10teAo0VHdAZPfYjcbSLxzQ6W0P7ZkB4cN root@ip-172-31-80-119"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCgLuNvutMBKBRcZdvieFIlunRaE6ZfQRNbwQb6rxYxoG5BRf01SGRghZeGYTQ8kh4hDsIt/21QNMcy2m5Mtfz6src1RkAgjrrnaM/N4hHVN/84ju2cJx9apQOdOjS7tqH+1ayxg3bV6hYN0mfHovIWqCb+DCmJaROEguNCkxwFmcADefavH23dvCQ+iRvAMmnso0DCH3XRfB+3C/CTeGNtXQ5SPFVxYFAN41+OQ/EaXHy1d3cgtSFQ7A6eE44k5vWxewxP+1xbj59Zuxxxn2JKYoClAq9bb9amx20jngwoqs4utBZhmaL1q1sZcne/Ufs/CyWakS1NxtBMQ9a97WRJ root@ip-172-31-85-33"
 }
